@@ -1,0 +1,66 @@
+
+main {
+
+}
+
+#rehearsal {
+	width: 100%;
+	height: 400px;
+	background-color: blue;
+}
+
+aside {
+
+}
+
+body {
+	background-color: rgba(0,0,100,.5);
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+}
+
+h1 {
+	color: rgb(255,255,255);
+	font-size: 24px;
+	font-family: helvetica, sans-serif
+}
+
+h3 {
+	color: rgb(255,255,255);
+	font-size: 14px;
+	font-family: helvetica, sans-serif;
+}
+
+hr {
+	width: 300px;
+}
+
+p {
+	
+}
+
+#slogan {
+	font-style: italic;
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(0,0,255);
+	
+}
+
+a:hover {
+	color: rgb(255,0,0);
+}
+
+ul {
+	
+}
+
+li {
+	
+}
+
+footer {
+	
+}
