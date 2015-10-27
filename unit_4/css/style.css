@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+	background-color: rgba(0,0,100,.5);
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+main {
+
+}
+
+#introduction {
+	background: url("../images/beach_wedding_hug.jpg") no-repeat bottom center fixed;
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+}
+
+
+#week {
+	
+}
+
+#dinner {
+	
+}
+
+#firstlook {
+
+}
+
+#ceremony {
+
+}
+
+#reception {
+	
+}
+
+#dancing {
+	
+}
+
+aside {
+
+}
+
+
+
+h1 {
+	color: rgb(255,255,255);
+	font-size: 40px;
+	font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+	color: rgb(255,255,255);
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+}
+
+hr {
+	width: 50px;
+	border: none;
+	height: 1px;
+	background-color: #fff;
+}
+
+p {
+	
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(255,255,255);
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(0,0,255);
+	
+}
+
+a:hover {
+	color: rgb(255,0,0);
+}
+
+ul {
+	
+}
+
+li {
+	
+}
+
+footer {
+	
+}
