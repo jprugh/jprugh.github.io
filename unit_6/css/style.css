@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+/*Still need to look through this with an eye towards cleanliness and efficiency - can we make children or descendents?*/
 
 body {
 	background-color: #E8E8E8;
@@ -71,67 +72,62 @@ nav a {
 #introduction #button {
 	background-color: rgba(255,255,255,0.5);
 	border: solid white 2px;
-	color: #fff;
+	color: #E8444D;
 	text-align: center;
 	font-weight: bold;
 	margin: auto;
-	padding: 25px;
+	padding: 20px;
 	width: 150px;
-
+	border-radius: 10px;
 }
 
 #welcome {
-	margin: 2em;
+	padding: 5%;
+	margin: auto;
+	width: 80%;
+	line-height: 1.5em;
+
 }
 
 #pre-ceremony {
-
+	margin: auto;
+	padding: 0% 5%;
 }
 
 
 #portraits {
-	
+	margin: auto;
+	padding: 3% 5%;
 }
 
 #ceremony {
-	
+	margin: auto;
+	padding: 3% 5%;
 }
 
 #reception {
-	
+	margin: auto;
+	padding: 3% 5%;
 }
 
 #dancing {
-	
+	margin: auto;
+	padding: 3% 5%;
 }
+
+.thumbnails {
+	margin: auto;
+	float: left;
+	width: 21%;
+	margin: 2%;
+}
+
 
 .thumbnails img {
-    width: 200px;
-    height: auto;
-    margin: 20px;
-    float: left;
-        /*background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    width: 100%;
+    max-width: 225px;
+  
 }
-
-/*Experimenting with displaying images below this line*/
-
-figure {
-  /*background-color: yellow;*/
-  width: 80%;
-  max-width: 600px;
-  margin: auto;
-}
-
-figure img {
-  width: 100%;
-/*  max-width:400px;*/
-  display: block;
-  margin: auto;
-}
-
-/*End experimenting with displaying images above this line*/
 
 .clearfix:after {
 	visibility: hidden;
@@ -151,27 +147,33 @@ figure img {
     float: left;
     width: 62%;
     height: 325px;
+    margin: auto;
 }
 
 #mini-float {
 	width: 100%;
-	margin: auto;
-
+	padding: 1%;
+	background-color: #000;
+	display: block;
 }
 
 .honeymoon-float {
-	float:right;
+	float:left;
+	background-color: yellow;
 	width: 25%;
 	padding: 2%;
 	/*The float isn't quite centered here. Something to look into. Might be issue with #mini-float margin: auto?*/
+}
+
+.honeymoon-float img {
+	width: 100%;
 }
 
 #right {
     padding: 2%;
     float: right;   
     width: 30%;
-    height: 325px;
-  
+    height: 325px;  
 }
 
 
@@ -192,15 +194,17 @@ h2 {
 }
 
 hr {
-	width: 115px;
+	width: 30%;
 	border: none;
 	height: 1px;
 	background-color: #fff;
-	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #fff;
 }
+
 
 p {
 	color: #000080;
+	line-height: 1.5em;
 }
 
 
