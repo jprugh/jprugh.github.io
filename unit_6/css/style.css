@@ -151,18 +151,17 @@ nav a {
 }
 
 #mini-float {
-	width: 100%;
+	width: 75%;
 	padding: 1%;
-	background-color: #000;
 	display: block;
+	margin: auto;
 }
 
 .honeymoon-float {
 	float:left;
-	background-color: yellow;
-	width: 25%;
+	width: 29.33%;
 	padding: 2%;
-	/*The float isn't quite centered here. Something to look into. Might be issue with #mini-float margin: auto?*/
+
 }
 
 .honeymoon-float img {

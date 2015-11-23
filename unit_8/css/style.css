@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*Still need to look through this with an eye towards cleanliness and efficiency - can we make children or descendents?*/
+
+body {
+	background-color: #E8E8E8;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #E8E8E8;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid #BDBDBD;
+	
+}
+
+label {
+	display: none;
+}
+
+nav {
+	float: right;
+
+}
+
+nav a {
+	display: inline-block;
+	margin: 10px;
+	text-align:;
+	color: #E8444D;
+	padding: 10px;
+}
+
+main {
+	overflow: auto;
+}
+
+h1 {
+	color: rgb(255,255,255);
+	font-size: 2.7em;
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 1px #000;
+	margin-bottom: 50px;
+	padding: 0% 5%;
+}
+
+h2 {
+	color: #000080;
+	font-size: 2.2em;
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	margin: 20px;
+}
+
+hr {
+	width: 30%;
+	border: none;
+	height: 1px;
+	background-color: #fff;
+	text-shadow: 1px 1px #fff;
+}
+
+
+p {
+	color: #000080;
+	line-height: 1.5em;
+}
+
+
+footer {
+	width:80%;
+	margin: auto;
+	text-align: center;
+	}
+
+
+a:link {
+	text-decoration: none;
+	color: #E8444D;
+
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C0003E;
+}
+
+a:active {
+	color: #C0003E;
+}
+
+.thumbnails {
+	margin: auto;
+	float: left;
+	width: 21%;
+	margin: 2%;
+}
+
+.thumbnails img {
+    width: 100%;
+    max-width: 225px;
+  	border: solid 1px #848484;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h2 {
+	margin: 0;
+	text-align: center;
+	color: #E8444D;
+	font-size: 1.8em;
+	font-family: 'Great Vibes', cursive;
+	padding: 18px;
+	background-color: none;
+	}
+
+#introduction {
+	margin-top: 60px;
+	background: url("../images/neckdown.jpg") no-repeat bottom center fixed;
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#slogan {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	margin: 50px;
+}
+
+#introduction #button {
+	background-color: rgba(255,255,255,0.5);
+	border: solid white 2px;
+	color: #E8444D;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	padding: 20px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+#welcome {
+	padding: 5%;
+	margin: auto;
+	width: 80%;
+	line-height: 1.5em;
+
+}
+
+#pre-ceremony {
+	margin: auto;
+	padding: 0% 5%;
+}
+
+
+#portraits {
+	margin: auto;
+	padding: 3% 5%;
+}
+
+#ceremony {
+	margin: auto;
+	padding: 3% 5%;
+}
+
+#reception {
+	margin: auto;
+	padding: 3% 5%;
+}
+
+#dancing {
+	margin: auto;
+	padding: 3% 5%;
+}
+
+
+#two_column {
+    /*Purpose is only for clearfix*/
+}
+
+#honeymoon {
+    float: left;
+    width: 46%;
+    padding: 2%;
+    margin: auto;
+}
+
+#whats-next {
+    float: right;   
+    width: 46%;
+    padding: 2%;
+    margin: auto;
+}
+
+#copyright {
+	text-align: center;
+}
+
+#toggle {
+	display: none;
+}
+
+@media only screen and (max-width: 900px) {
+	.thumbnails {
+		width: 29.33%;
+		margin: 2%;
+		/*Why are vertical photos not all showing up appropriately - some missing */
+}
+
+	#honeymoon {
+		float: none;
+		width: 80%;
+		margin: auto;
+	}
+
+	#whats-next {
+		
+		float: none;
+		width: 80%;
+		margin: auto;
+	}
+
+@media only screen and (max-width: 775px) {
+	header {
+		height: 100px;
+	}
+
+	nav { 
+		float: none;
+		margin: auto;
+		display: block;
+		text-align: center;
+	}
+
+	#logo {
+		text-align: center;
+		float: none;
+		display: block;
+	}
+
+	#logo h2 {
+		padding: 10px;
+	} 
+}
+
+@media only screen and (max-width: 680px) {
+	.thumbnails {
+		width: 46%;
+		margin: 2%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	label {
+		display: block;
+		margin: 20px 0 0;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#introduction #button {
+		display: none;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+	/*Why is this functionality not working? Not letting me click to display nav*/
+	/*Remember to remove postion: static and Z-index*/
+}
+@media only screen and (max-width: 430px) {
+	
+
+	.thumbnails {
+		width: 96%;
+		padding: 2%;
+		margin: auto;
+		background-color: yellow;
+	}
+}
