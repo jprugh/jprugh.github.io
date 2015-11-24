@@ -273,6 +273,10 @@ a:active {
 		width: 46%;
 		margin: 2%;
 	}
+
+	#introduction #button {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -286,10 +290,6 @@ a:active {
 	}
 
 	nav {
-		display: none;
-	}
-
-	#introduction #button {
 		display: none;
 	}
 
