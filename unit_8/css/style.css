@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-/*Still need to look through this with an eye towards cleanliness and efficiency - can we make children or descendents?*/
-
 body {
 	background-color: #E8E8E8;
 	font-size: 16px;
@@ -17,7 +15,6 @@ header {
 	position: fixed;
 	z-index: 10;
 	border-bottom: 1px solid #BDBDBD;
-	
 }
 
 label {
@@ -172,6 +169,8 @@ a:active {
 
 }
 
+/*Looked at consolidating these but the nav anchors are tied to the IDs, so couldn't use the class. Way to troubleshoot?*/
+
 #pre-ceremony {
 	margin: auto;
 	padding: 0% 5%;
@@ -279,7 +278,10 @@ a:active {
 	
 	label {
 		display: block;
-		margin: 20px 0 0;
+		margin: 15px 0 0;
+		text-align: center;
+		color: #E8444D;
+		font-size: 1.2em;
 	}
 
 	nav {
@@ -292,17 +294,21 @@ a:active {
 
 	#toggle:checked + nav {
 		display: block;
+		height: 110px;
+		border-bottom: solid 1px #BDBDBD;
+		background-color: #E8E8E8;
 	}
-	/*Why is this functionality not working? Not letting me click to display nav*/
-	/*Remember to remove postion: static and Z-index*/
+
 }
 @media only screen and (max-width: 430px) {
-	
 
 	.thumbnails {
-		width: 96%;
-		padding: 2%;
-		margin: auto;
-		background-color: yellow;
+		width: 100%;
+		text-align: center;
+	}
+
+	header {
+		position: static;
 	}
 }
+
