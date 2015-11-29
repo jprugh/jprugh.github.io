@@ -134,7 +134,8 @@ a:active {
 
 #introduction {
 	margin-top: 60px;
-	background: url("../images/neckdown.jpg") no-repeat bottom center fixed;
+	background: url("../images/neckdown.jpg") no-repeat bottom center fixed; 
+	/* DESPERATELY NEED TO SHRINK THIS IMAGE DOWN - takes forever to load.*/
 	width: 100%;
 	height: 50vh;
 	background-size: cover;
@@ -229,8 +230,7 @@ a:active {
 	.thumbnails {
 		width: 29.33%;
 		margin: 2%;
-		/*Why are vertical photos not all showing up appropriately - some missing */
-}
+	}
 
 	#honeymoon {
 		float: none;
@@ -245,9 +245,11 @@ a:active {
 		margin: auto;
 	}
 
+}
+
 @media only screen and (max-width: 775px) {
 	header {
-		height: 100px;
+		height: auto;
 	}
 
 	nav { 
@@ -283,7 +285,7 @@ a:active {
 	
 	label {
 		display: block;
-		margin: 15px 0 0;
+		margin: 15px 0 10px 0;
 		text-align: center;
 		color: #E8444D;
 		font-size: 1.2em;
