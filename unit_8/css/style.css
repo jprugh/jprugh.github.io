@@ -135,8 +135,7 @@ a:active {
 #introduction {
 	margin-top: 60px;
 	background: url("../images/neckdown.jpg") no-repeat bottom center fixed; 
-	/* DESPERATELY NEED TO SHRINK THIS IMAGE DOWN - takes forever to load.*/
-	width: 100%;
+	/*width: 100%;*/
 	height: 50vh;
 	background-size: cover;
 	text-align: center;
@@ -161,6 +160,7 @@ a:active {
 	padding: 20px;
 	width: 150px;
 	border-radius: 10px;
+	/*How do I make this so that the margin isn't included in the button - right now, the entire screen width is click-able*/
 }
 
 #welcome {
@@ -171,30 +171,12 @@ a:active {
 
 }
 
-/*Looked at consolidating these but the nav anchors are tied to the IDs, so couldn't use the class. Way to troubleshoot?*/
-
 #pre-ceremony {
-	margin: auto;
 	padding: 0% 5%;
 }
 
 
-#portraits {
-	margin: auto;
-	padding: 3% 5%;
-}
-
-#ceremony {
-	margin: auto;
-	padding: 3% 5%;
-}
-
-#reception {
-	margin: auto;
-	padding: 3% 5%;
-}
-
-#dancing {
+section {
 	margin: auto;
 	padding: 3% 5%;
 }
