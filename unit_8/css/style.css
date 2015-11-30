@@ -302,6 +302,14 @@ a:active {
 		background-color: #E8E8E8;
 	}
 
+	header {
+		position: static;
+	}
+
+	#introduction {
+		margin-top: 0;
+	}
+
 }
 @media only screen and (max-width: 430px) {
 
@@ -310,8 +318,6 @@ a:active {
 		text-align: center;
 	}
 
-	header {
-		position: static;
-	}
+	
 }
 
