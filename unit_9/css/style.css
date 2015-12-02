@@ -5,7 +5,6 @@ body {
 	background-color: #E8E8E8;
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
-	
 }
 
 header {
@@ -23,7 +22,6 @@ label {
 
 nav {
 	float: right;
-
 }
 
 nav a {
@@ -64,24 +62,26 @@ hr {
 	text-shadow: 1px 1px #fff;
 }
 
-
 p {
 	color: #000080;
 	line-height: 1.5em;
 }
 
+section {
+	margin: auto;
+	padding: 3% 5%;
+}
 
 footer {
 	width:80%;
 	margin: auto;
 	text-align: center;
-	}
+}
 
 
 a:link {
 	text-decoration: none;
 	color: #E8444D;
-
 }
 
 a:visited {
@@ -130,7 +130,7 @@ a:active {
 	font-family: 'Great Vibes', cursive;
 	padding: 18px;
 	background-color: none;
-	}
+}
 
 #introduction {
 	margin-top: 60px;
@@ -168,19 +168,11 @@ a:active {
 	margin: auto;
 	width: 80%;
 	line-height: 1.5em;
-
 }
 
 #pre-ceremony {
 	padding: 0% 5%;
 }
-
-
-section {
-	margin: auto;
-	padding: 3% 5%;
-}
-
 
 #two_column {
     /*Purpose is only for clearfix*/
@@ -303,4 +295,3 @@ section {
 		margin-top: 0;
 	}
 }
-
