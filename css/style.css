@@ -150,7 +150,7 @@ a:active {
 	margin: 50px;
 }
 
-#introduction #button {
+/*#introduction #button {
 	background-color: rgba(255,255,255,0.5);
 	border: solid white 2px;
 	color: #E8444D;
@@ -160,7 +160,17 @@ a:active {
 	padding: 20px;
 	width: 150px;
 	border-radius: 10px;
-	/*How do I make this so that the margin isn't included in the button - right now, the entire screen width is click-able*/
+}*/
+
+#button {
+	border: solid white 2px;
+	color: #E8444D;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
 }
 
 #welcome {
@@ -293,6 +303,6 @@ a:active {
 
 	#introduction {
 		margin-top: 0;
-		background: #;
+		background: #000080;
 	}
 }
